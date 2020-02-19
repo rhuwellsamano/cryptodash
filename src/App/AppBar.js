@@ -43,8 +43,8 @@ export default function() {
     <Bar>
         <Logo>CryptoDash</Logo>
         <div/>
-        <ControlButton active name={"Dashboard"}/>
-        <ControlButton name={"Settings"}/>
+        <ControlButton active name={"dashboard"}/>
+        <ControlButton name={"settings"}/>
     </Bar>
     )
 }
