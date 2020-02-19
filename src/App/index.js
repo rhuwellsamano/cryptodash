@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Welcome from './WelcomeMessage';
+import WelcomeMessage from './WelcomeMessage';
 import AppLayout from './AppLayout';
 import AppBar from './AppBar';
+import {AppProvider} from './AppProvider'
 
 function App() {
   return (
     <AppLayout>
-      <AppBar/>
-      <Welcome/>
+      <AppProvider>
+        <AppBar/>
+        <WelcomeMessage/>
+      </AppProvider>
     </AppLayout>
   ); 
 }
